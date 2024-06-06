@@ -1,0 +1,633 @@
+﻿Start debugging Android application ...
+Forwarding debugger port 8817
+Detecting existing process
+> am start -a "android.intent.action.MAIN" -c "android.intent.category.LAUNCHER" -n "com.companyname.mauilauncherapp/crc645c4d24dd2c680f4c.MainActivity"
+> Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.companyname.mauilauncherapp/crc645c4d24dd2c680f4c.MainActivity }
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Private.CoreLib.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/MauiLauncherApp.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Mono.Android.dll [External]
+[mauilauncherap] Late-enabling -Xcheck:jni
+[mauilauncherap] Unquickening 23 vdex files!
+[Perf] Connecting to perf service.
+[NetworkSecurityConfig] No Network Security Config specified, using platform default
+[NetworkSecurityConfig] No Network Security Config specified, using platform default
+[debug-app-helper] Checking if libmonodroid was unpacked to /data/app/~~fp9A1n1sbRLSdKd8cVCNcQ==/com.companyname.mauilauncherapp-a3ollAehp9vPC_OBdWt8OQ==/lib/arm64/libmonodroid.so
+[debug-app-helper] Native libs extracted to /data/app/~~fp9A1n1sbRLSdKd8cVCNcQ==/com.companyname.mauilauncherapp-a3ollAehp9vPC_OBdWt8OQ==/lib/arm64, assuming application/android:extractNativeLibs == true
+[debug-app-helper] Setting up for DSO lookup in app data directories
+[debug-app-helper] Added filesystem DSO lookup location: /data/app/~~fp9A1n1sbRLSdKd8cVCNcQ==/com.companyname.mauilauncherapp-a3ollAehp9vPC_OBdWt8OQ==/lib/arm64
+[debug-app-helper] Using runtime path: /data/app/~~fp9A1n1sbRLSdKd8cVCNcQ==/com.companyname.mauilauncherapp-a3ollAehp9vPC_OBdWt8OQ==/lib/arm64
+[debug-app-helper] checking directory: `/data/user/0/com.companyname.mauilauncherapp/files/.__override__/lib`
+[debug-app-helper] directory does not exist: `/data/user/0/com.companyname.mauilauncherapp/files/.__override__/lib`
+[debug-app-helper] Checking whether Mono runtime exists at: /data/user/0/com.companyname.mauilauncherapp/files/.__override__/libmonosgen-2.0.so
+[debug-app-helper] Checking whether Mono runtime exists at: /data/app/~~fp9A1n1sbRLSdKd8cVCNcQ==/com.companyname.mauilauncherapp-a3ollAehp9vPC_OBdWt8OQ==/lib/arm64/libmonosgen-2.0.so
+[debug-app-helper] Mono runtime found at: /data/app/~~fp9A1n1sbRLSdKd8cVCNcQ==/com.companyname.mauilauncherapp-a3ollAehp9vPC_OBdWt8OQ==/lib/arm64/libmonosgen-2.0.so
+[mauilauncherap] Attempt to remove non-JNI local reference, dumping thread
+[DOTNET] JNI_OnLoad: JNI_OnLoad in pal_jni.c
+[DOTNET] GetOptionalClassGRef: optional class com/android/org/conscrypt/OpenSSLEngineImpl was not found
+[monodroid] Creating public update directory: `/data/user/0/com.companyname.mauilauncherapp/files/.__override__`
+[mauilauncherap] Attempt to remove non-JNI local reference, dumping thread
+[monodroid-debug] Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:8817,server=y,embedding=1,timeout=1717672910
+[monodroid-assembly] open_from_bundles: failed to load assembly MauiLauncherApp.dll
+[monodroid-gc] GREF GC Threshold: 46080
+[monodroid-assembly] open_from_bundles: failed to load assembly Mono.Android.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Java.Interop.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.InteropServices.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Java.Interop.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Runtime.InteropServices.dll [External]
+Resolved pending breakpoint for 'Android.Runtime.JNIEnvInit.RegisterJniNatives(System.IntPtr, System.Int32, System.IntPtr, System.IntPtr, System.Int32)' to /Users/runner/work/1/s/xamarin-android/src/Mono.Android/Android.Runtime/JNIEnvInit.cs:57 [0x00000].
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Collections.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Collections.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Mono.Android.Runtime.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Mono.Android.Runtime.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Threading.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Threading.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Threading.Thread.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Diagnostics.StackTrace.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Threading.Thread.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Diagnostics.StackTrace.dll [External]
+[mauilauncherap] Attempt to remove non-JNI local reference, dumping thread
+Loaded assembly: data-0xb4000073c42f4030 [External]
+Loaded assembly: data-0xb4000073c4304040 [External]
+Loaded assembly: data-0xb4000073e4351050 [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly netstandard.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/netstandard.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Linq.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Linq.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Collections.Concurrent.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Collections.Concurrent.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointSendToIde(System.String)' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:425 [0x00000].
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.Json.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Text.Json.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.Encodings.Web.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Text.Encodings.Web.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.ComponentModel.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.ComponentModel.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Controls.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Maui.Controls.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.VisualStudio.DesignTools.TapContract.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.ObjectModel.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.ObjectModel.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Maui.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Graphics.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Essentials.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Logging.Abstractions.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Maui.Graphics.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Maui.Essentials.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.Logging.Abstractions.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Private.Uri.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Private.Uri.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Loader.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Runtime.Loader.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointCheckpoint()' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:420 [0x00000].
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Memory.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Memory.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Reflection.Emit.Lightweight.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Reflection.Emit.ILGeneration.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Reflection.Primitives.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Reflection.Emit.Lightweight.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Reflection.Emit.ILGeneration.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Reflection.Primitives.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Core.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Core.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.DependencyInjection.Abstractions.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Console.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Console.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Maui.Controls.Xaml.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly CommunityToolkit.Maui.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly CommunityToolkit.Maui.Core.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Configuration.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Configuration.Abstractions.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Logging.Debug.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly CommunityToolkit.Mvvm.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Maui.Controls.Xaml.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/CommunityToolkit.Maui.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/CommunityToolkit.Maui.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.Configuration.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.Configuration.Abstractions.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.Logging.Debug.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/CommunityToolkit.Mvvm.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.AppCompat.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.Google.Android.Material.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.SwipeRefreshLayout.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.AppCompat.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.Google.Android.Material.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.SwipeRefreshLayout.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.ComponentModel.TypeConverter.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.ComponentModel.TypeConverter.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Fragment.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Activity.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Lifecycle.ViewModel.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Lifecycle.Common.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.SavedState.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Fragment.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Activity.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModel.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Lifecycle.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.SavedState.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.DrawerLayout.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.CustomView.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Navigation.Runtime.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.DrawerLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.CustomView.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Navigation.Runtime.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Net.Primitives.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Net.Primitives.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Logging.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.Logging.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Options.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.Options.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.DependencyInjection.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.DependencyInjection.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Diagnostics.Tracing.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Diagnostics.Tracing.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Xml.ReaderWriter.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Private.Xml.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Xml.ReaderWriter.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Private.Xml.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.Encoding.Extensions.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Text.Encoding.Extensions.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Numerics.Vectors.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Numerics.Vectors.dll [External]
+[mauilauncherap] Explicit concurrent copying GC freed 60(67KB) AllocSpace objects, 0(0B) LOS objects, 20% free, 1985KB/2497KB, paused 15us total 3.512ms
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Text.RegularExpressions.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Text.RegularExpressions.dll [External]
+Thread started:  #2
+Thread started:  #3
+Thread started:  #4
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Serialization.Json.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Private.DataContractSerialization.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Serialization.Xml.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Serialization.Primitives.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Runtime.Serialization.Json.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Private.DataContractSerialization.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Runtime.Serialization.Xml.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Runtime.Serialization.Primitives.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Runtime.Intrinsics.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Runtime.Intrinsics.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.RecyclerView.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.CardView.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.RecyclerView.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.CardView.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Loader.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Loader.dll [External]
+[AppCompatDelegate] Checking for metadata for AppLocalesMetadataHolderService : Service not found
+[monodroid-assembly] open_from_bundles: failed to load assembly _Microsoft.Android.Resource.Designer.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/_Microsoft.Android.Resource.Designer.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.CoordinatorLayout.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.CoordinatorLayout.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.Core.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Microsoft.Extensions.Primitives.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Microsoft.Extensions.Primitives.dll [External]
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.Lifecycle.Runtime.dll
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.Kotlin.StdLib.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.Lifecycle.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.Kotlin.StdLib.dll [External]
+[mauilauncherap] Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+[mauilauncherap] Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.ViewPager2.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.ViewPager2.dll [External]
+[TabLayout] MODE_SCROLLABLE + GRAVITY_FILL is not supported, GRAVITY_START will be used instead
+[monodroid-assembly] open_from_bundles: failed to load assembly Xamarin.AndroidX.ViewPager.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/Xamarin.AndroidX.ViewPager.dll [External]
+[mauilauncherap] Explicit concurrent copying GC freed 328(56KB) AllocSpace objects, 0(0B) LOS objects, 14% free, 3041KB/3553KB, paused 18us total 6.432ms
+[Choreographer] Skipped 361 frames!  The application may be doing too much work on its main thread.
+[AdrenoGLES-0] QUALCOMM build                   : 64101be200, Id080298aef
+[AdrenoGLES-0] Build Date                       : 06/14/22
+[AdrenoGLES-0] OpenGL ES Shader Compiler Version: EV031.35.01.12
+[AdrenoGLES-0] Local Branch                     : 
+[AdrenoGLES-0] Remote Branch                    : 
+[AdrenoGLES-0] Remote Branch                    : 
+[AdrenoGLES-0] Reconstruct Branch               : 
+[AdrenoGLES-0] Build Config                     : S P 10.0.7 AArch64
+[AdrenoGLES-0] Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+[AdrenoGLES-0] PFP: 0x016dc094, ME: 0x00000000
+[MaterialButton] MaterialButton manages its own background to control elevation, shape, color and states. Consider using backgroundTint, shapeAppearance and other attributes where available. A custom background will ignore these attributes and you should consider handling interaction states such as pressed, focused and disabled
+[ResourcesCompat] Failed to inflate ColorStateList, leaving it to the framework
+[ResourcesCompat] java.lang.UnsupportedOperationException: Failed to resolve attribute at index 0: TypedValue{t=0x2/d=0x7f03010f a=-1}
+[ResourcesCompat] 	at android.content.res.TypedArray.getColor(TypedArray.java:528)
+[ResourcesCompat] 	at androidx.core.content.res.ColorStateListInflaterCompat.inflate(ColorStateListInflaterCompat.java:160)
+[ResourcesCompat] 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXmlInner(ColorStateListInflaterCompat.java:125)
+[ResourcesCompat] 	at androidx.core.content.res.ColorStateListInflaterCompat.createFromXml(ColorStateListInflaterCompat.java:104)
+[ResourcesCompat] 	at androidx.core.content.res.ResourcesCompat.inflateColorStateList(ResourcesCompat.java:262)
+[ResourcesCompat] 	at androidx.core.content.res.ResourcesCompat.getColorStateList(ResourcesCompat.java:236)
+[ResourcesCompat] 	at androidx.core.content.ContextCompat.getColorStateList(ContextCompat.java:558)
+[ResourcesCompat] 	at androidx.appcompat.content.res.AppCompatResources.getColorStateList(AppCompatResources.java:48)
+[ResourcesCompat] 	at androidx.appcompat.widget.TintTypedArray.getColorStateList(TintTypedArray.java:179)
+[ResourcesCompat] 	at androidx.appcompat.widget.AppCompatCompoundButtonHelper.loadFromAttributes(AppCompatCompoundButtonHelper.java:81)
+[ResourcesCompat] 	at androidx.appcompat.widget.AppCompatCheckBox.<init>(AppCompatCheckBox.java:84)
+[ResourcesCompat] 	at com.google.android.material.checkbox.MaterialCheckBox.<init>(MaterialCheckBox.java:231)
+[ResourcesCompat] 	at com.google.android.material.checkbox.MaterialCheckBox.<init>(MaterialCheckBox.java:227)
+[ResourcesCompat] 	at com.google.android.material.checkbox.MaterialCheckBox.<init>(MaterialCheckBox.java:223)
+[ResourcesCompat] 	at crc640ec207abc449b2ca.ShellFragmentContainer.n_onCreateView(Native Method)
+[ResourcesCompat] 	at crc640ec207abc449b2ca.ShellFragmentContainer.onCreateView(ShellFragmentContainer.java:41)
+[ResourcesCompat] 	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3114)
+[ResourcesCompat] 	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:557)
+[ResourcesCompat] 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:272)
+[ResourcesCompat] 	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1943)
+[ResourcesCompat] 	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1839)
+[ResourcesCompat] 	at androidx.fragment.app.FragmentManager.execSingleAction(FragmentManager.java:1751)
+[ResourcesCompat] 	at androidx.fragment.app.BackStackRecord.commitNow(BackStackRecord.java:317)
+[ResourcesCompat] 	at androidx.viewpager2.adapter.FragmentStateAdapter.placeFragmentInViewHolder(FragmentStateAdapter.java:341)
+[ResourcesCompat] 	at androidx.viewpager2.adapter.FragmentStateAdapter.onViewAttachedToWindow(FragmentStateAdapter.java:276)
+[ResourcesCompat] 	at androidx.viewpager2.adapter.FragmentStateAdapter.onViewAttachedToWindow(FragmentStateAdapter.java:67)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView.dispatchChildAttached(RecyclerView.java:8291)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView$5.addView(RecyclerView.java:924)
+[ResourcesCompat] 	at androidx.recyclerview.widget.ChildHelper.addView(ChildHelper.java:107)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView$LayoutManager.addViewInt(RecyclerView.java:9344)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView$LayoutManager.addView(RecyclerView.java:9302)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView$LayoutManager.addView(RecyclerView.java:9289)
+[ResourcesCompat] 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1676)
+[ResourcesCompat] 	at androidx.recyclerview.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1622)
+[ResourcesCompat] 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:687)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4604)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4307)
+[ResourcesCompat] 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4873)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at androidx.viewpager2.widget.ViewPager2.onLayout(ViewPager2.java:527)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at com.google.android.material.appbar.HeaderScrollingViewBehavior.layoutChild(HeaderScrollingViewBehavior.java:149)
+[ResourcesCompat] 	at com.google.android.material.appbar.ViewOffsetBehavior.onLayoutChild(ViewOffsetBehavior.java:43)
+[ResourcesCompat] 	at com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior.onLayoutChild(AppBarLayout.java:2376)
+[ResourcesCompat] 	at androidx.coordinatorlayout.widget.CoordinatorLayout.onLayout(CoordinatorLayout.java:953)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+[ResourcesCompat] 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+[ResourcesCompat] 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+[ResourcesCompat] 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+[ResourcesCompat] 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at androidx.drawerlayout.widget.DrawerLayout.onLayout(DrawerLayout.java:1273)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+[ResourcesCompat] 	at android.widget.LinearLayout.layoutHorizontal(LinearLayout.java:1818)
+[ResourcesCompat] 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1584)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+[ResourcesCompat] 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+[ResourcesCompat] 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+[ResourcesCompat] 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1829)
+[ResourcesCompat] 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1673)
+[ResourcesCompat] 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1582)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:332)
+[ResourcesCompat] 	at android.widget.FrameLayout.onLayout(FrameLayout.java:270)
+[ResourcesCompat] 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:785)
+[ResourcesCompat] 	at android.view.View.layout(View.java:22848)
+[ResourcesCompat] 	at android.view.ViewGroup.layout(ViewGroup.java:6389)
+[ResourcesCompat] 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:3477)
+[ResourcesCompat] 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2945)
+[ResourcesCompat] 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1950)
+[ResourcesCompat] 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8186)
+[ResourcesCompat] 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1056)
+[ResourcesCompat] 	at android.view.Choreographer.doCallbacks(Choreographer.java:878)
+[ResourcesCompat] 	at android.view.Choreographer.doFrame(Choreographer.java:811)
+[ResourcesCompat] 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1041)
+[ResourcesCompat] 	at android.os.Handler.handleCallback(Handler.java:938)
+[ResourcesCompat] 	at android.os.Handler.dispatchMessage(Handler.java:99)
+[ResourcesCompat] 	at android.os.Looper.loop(Looper.java:223)
+[ResourcesCompat] 	at android.app.ActivityThread.main(ActivityThread.java:7726)
+[ResourcesCompat] 	at java.lang.reflect.Method.invoke(Native Method)
+[ResourcesCompat] 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+[ResourcesCompat] 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:952)
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Linq.Expressions.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Linq.Expressions.dll [External]
+[OpenGLRenderer] Davey! duration=6475ms; Flags=1, IntendedVsync=9495232757651, Vsync=9501249424077, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=9501255253406, AnimationStart=9501255256531, PerformTraversalsStart=9501255370124, DrawStart=9501683807207, SyncQueued=9501692098041, SyncStart=9501692357312, IssueDrawCommandsStart=9501692420332, SwapBuffers=9501703166895, FrameCompleted=9501708149968, DequeueBufferDuration=98594, QueueBufferDuration=418750, GpuCompleted=0, 
+Thread started: .NET Timer #5
+Thread started: <Thread Pool> #6
+Thread started: .NET TP Gate #7
+Thread started: <Thread Pool> #8
+[monodroid-assembly] open_from_bundles: failed to load assembly System.Xml.XmlSerializer.dll
+Loaded assembly: /data/data/com.companyname.mauilauncherapp/files/.__override__/System.Xml.XmlSerializer.dll [External]
+Thread started: <Thread Pool> #9
+Thread started: <Thread Pool> #10
+Thread started: <Thread Pool> #11
+Thread started: <Thread Pool> #12
+[mauilauncherap] Explicit concurrent copying GC freed 2906(134KB) AllocSpace objects, 0(0B) LOS objects, 26% free, 4263KB/5799KB, paused 16us total 10.904ms
+[Choreographer] Skipped 111 frames!  The application may be doing too much work on its main thread.
+[mauilauncherap] Explicit concurrent copying GC freed 4037(255KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 4518KB/6054KB, paused 22us total 9.781ms
+[OpenGLRenderer] Davey! duration=2270ms; Flags=1, IntendedVsync=9506899207630, Vsync=9508749207556, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=9508753157257, AnimationStart=9508753161736, PerformTraversalsStart=9508753412934, DrawStart=9509163728194, SyncQueued=9509167480017, SyncStart=9509167804184, IssueDrawCommandsStart=9509167840798, SwapBuffers=9509169867986, FrameCompleted=9509170470330, DequeueBufferDuration=104062, QueueBufferDuration=219844, GpuCompleted=73014444033, 
+[ProfileInstaller] Installing profile for com.companyname.mauilauncherapp
+Thread started: <Thread Pool> #13
+[TetheringManager] registerTetheringEventCallback:com.companyname.mauilauncherapp
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[chatty] uid=10260(com.companyname.mauilauncherapp) identical 12 lines
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+Thread started:  #14
+Thread started:  #15
+Thread started:  #16
+Thread started:  #17
+Thread started: <Thread Pool> #18
+Thread started: <Thread Pool> #19
+[OpenGLRenderer] endAllActiveAnimators on 0xb4000072c435ca60 (RippleDrawable) with handle 0xb4000071e4de8770
+[mauilauncherap] Explicit concurrent copying GC freed 6779(539KB) AllocSpace objects, 8(304KB) LOS objects, 25% free, 5517KB/7356KB, paused 19us total 11.855ms
+[OpenGLRenderer] Davey! duration=734ms; Flags=1, IntendedVsync=9512465673133, Vsync=9512949006447, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=9512954093141, AnimationStart=9512954097307, PerformTraversalsStart=9512954315641, DrawStart=9513194510849, SyncQueued=9513197589547, SyncStart=9513197974807, IssueDrawCommandsStart=9513198017047, SwapBuffers=9513199060901, FrameCompleted=9513200897932, DequeueBufferDuration=85417, QueueBufferDuration=1469115, GpuCompleted=73014444033, 
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[Bitmap] Called hasAlpha() on a recycle()'d bitmap! This is undefined behavior!
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[Bitmap] Called hasAlpha() on a recycle()'d bitmap! This is undefined behavior!
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[Bitmap] Called hasAlpha() on a recycle()'d bitmap! This is undefined behavior!
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[Bitmap] Called hasAlpha() on a recycle()'d bitmap! This is undefined behavior!
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[mauilauncherap] Explicit concurrent copying GC freed 9409(696KB) AllocSpace objects, 2(40KB) LOS objects, 24% free, 6057KB/8076KB, paused 65us total 32.293ms
+[mauilauncherap] WaitForGcToComplete blocked NativeAlloc on HeapTrim for 6.029ms
+[Bitmap] Called hasAlpha() on a recycle()'d bitmap! This is undefined behavior!
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[chatty] uid=10260(com.companyname.mauilauncherapp) identical 7 lines
+[CustomViewTarget] Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use .override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.
+[Bitmap] Called hasAlpha() on a recycle()'d bitmap! This is undefined behavior!
+[chatty] uid=10260(com.companyname.mauilauncherapp) identical 8 lines
+[Bitmap] Called hasAlpha() on a recycle()'d bitmap! This is undefined behavior!
+**Java.Lang.RuntimeException:** 'Loading...'
+
+**Java.Lang.RuntimeException:** 'Canvas: trying to use a recycled bitmap android.graphics.Bitmap@91dbd84'
+
+[mono-rt] [ERROR] FATAL UNHANDLED EXCEPTION: Java.Lang.RuntimeException: Canvas: trying to use a recycled bitmap android.graphics.Bitmap@91dbd84
+[mono-rt]    at Java.Interop.JniEnvironment.InstanceMethods.CallNonvirtualBooleanMethod(JniObjectReference instance, JniObjectReference type, JniMethodInfo method, JniArgumentValue* args) in /Users/runner/work/1/s/xamarin-android/external/Java.Interop/src/Java.Interop/obj/Release/net7.0/JniEnvironment.g.cs:line 20463
+[mono-rt]    at Java.Interop.JniPeerMembers.JniInstanceMethods.InvokeVirtualBooleanMethod(String encodedMember, IJavaPeerable self, JniArgumentValue* parameters) in /Users/runner/work/1/s/xamarin-android/external/Java.Interop/src/Java.Interop/Java.Interop/JniPeerMembers.JniInstanceMethods_Invoke.cs:line 164
+[mono-rt]    at Android.Views.ViewGroup.DrawChild(Canvas canvas, View child, Int64 drawingTime) in /Users/runner/work/1/s/xamarin-android/src/Mono.Android/obj/Release/net8.0/android-34/mcw/Android.Views.ViewGroup.cs:line 2839
+[mono-rt]    at Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutRenderer.DrawChild(Canvas canvas, View child, Int64 drawingTime) in D:\a\_work\1\s\src\Controls\src\Core\Compatibility\Handlers\Shell\Android\ShellFlyoutRenderer.cs:line 172
+[mono-rt]    at Android.Views.ViewGroup.n_DrawChild_Landroid_graphics_Canvas_Landroid_view_View_J(IntPtr jnienv, IntPtr native__this, IntPtr native_canvas, IntPtr native_child, Int64 drawingTime) in /Users/runner/work/1/s/xamarin-android/src/Mono.Android/obj/Release/net8.0/android-34/mcw/Android.Views.ViewGroup.cs:line 2824
+[mono-rt]    at Android.Runtime.JNINativeWrapper.Wrap_JniMarshal_PPLLJ_Z(_JniMarshal_PPLLJ_Z callback, IntPtr jnienv, IntPtr klazz, IntPtr p0, IntPtr p1, Int64 p2) in /Users/runner/work/1/s/xamarin-android/src/Mono.Android/Android.Runtime/JNINativeWrapper.g.cs:line 319
+[mono-rt]   --- End of managed Java.Lang.RuntimeException stack trace ---
+[mono-rt] java.lang.RuntimeException: Canvas: trying to use a recycled bitmap android.graphics.Bitmap@91dbd84
+[mono-rt] 	at android.graphics.BaseCanvas.throwIfCannotDraw(BaseCanvas.java:66)
+[mono-rt] 	at android.graphics.RecordingCanvas.throwIfCannotDraw(RecordingCanvas.java:277)
+[mono-rt] 	at android.graphics.BaseRecordingCanvas.drawBitmap(BaseRecordingCanvas.java:88)
+[mono-rt] 	at android.graphics.drawable.BitmapDrawable.draw(BitmapDrawable.java:548)
+[mono-rt] 	at android.widget.ImageView.onDraw(ImageView.java:1436)
+[mono-rt] 	at android.view.View.draw(View.java:22354)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.drawChild(RecyclerView.java:5499)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.draw(RecyclerView.java:4898)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at com.microsoft.maui.PlatformContentViewGroup.dispatchDraw(PlatformContentViewGroup.java:47)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.drawChild(RecyclerView.java:5499)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.draw(RecyclerView.java:4898)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.coordinatorlayout.widget.CoordinatorLayout.drawChild(CoordinatorLayout.java:1312)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.drawerlayout.widget.DrawerLayout.drawChild(DrawerLayout.java:1483)
+[mono-rt] 	at crc640ec207abc449b2ca.ShellFlyoutRenderer.n_drawChild(Native Method)
+[mono-rt] 	at crc640ec207abc449b2ca.ShellFlyoutRenderer.drawChild(ShellFlyoutRenderer.java:57)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at com.android.internal.policy.DecorView.draw(DecorView.java:807)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.ThreadedRenderer.updateViewTreeDisplayList(ThreadedRenderer.java:559)
+[mono-rt] 	at android.view.ThreadedRenderer.updateRootDisplayList(ThreadedRenderer.java:565)
+[mono-rt] 	at android.view.ThreadedRenderer.draw(ThreadedRenderer.java:642)
+[mono-rt] 	at android.view.ViewRootImpl.draw(ViewRootImpl.java:4108)
+[mono-rt] 	at android.view.ViewRootImpl.performDraw(ViewRootImpl.java:3835)
+[mono-rt] 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3106)
+[mono-rt] 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1950)
+[mono-rt] 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8186)
+[mono-rt] 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1056)
+[mono-rt] 	at android.view.Choreographer.doCallbacks(Choreographer.java:878)
+[mono-rt] 	at android.view.Choreographer.doFrame(Choreographer.java:811)
+[mono-rt] 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1041)
+[mono-rt] 	at android.os.Handler.handleCallback(Handler.java:938)
+[mono-rt] 	at android.os.Handler.dispatchMessage(Handler.java:99)
+[mono-rt] 	at android.os.Looper.loop(Looper.java:223)
+[mono-rt] 	at android.app.ActivityThread.main(ActivityThread.java:7726)
+[mono-rt] 	at java.lang.reflect.Method.invoke(Native Method)
+[mono-rt] 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+[mono-rt] 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:952)
+[mono-rt] 
+[mono-rt]   --- End of managed Java.Lang.RuntimeException stack trace ---
+[mono-rt] java.lang.RuntimeException: Canvas: trying to use a recycled bitmap android.graphics.Bitmap@91dbd84
+[mono-rt] 	at android.graphics.BaseCanvas.throwIfCannotDraw(BaseCanvas.java:66)
+[mono-rt] 	at android.graphics.RecordingCanvas.throwIfCannotDraw(RecordingCanvas.java:277)
+[mono-rt] 	at android.graphics.BaseRecordingCanvas.drawBitmap(BaseRecordingCanvas.java:88)
+[mono-rt] 	at android.graphics.drawable.BitmapDrawable.draw(BitmapDrawable.java:548)
+[mono-rt] 	at android.widget.ImageView.onDraw(ImageView.java:1436)
+[mono-rt] 	at android.view.View.draw(View.java:22354)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.drawChild(RecyclerView.java:5499)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.draw(RecyclerView.java:4898)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at com.microsoft.maui.PlatformContentViewGroup.dispatchDraw(PlatformContentViewGroup.java:47)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.drawChild(RecyclerView.java:5499)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at androidx.recyclerview.widget.RecyclerView.draw(RecyclerView.java:4898)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.coordinatorlayout.widget.CoordinatorLayout.drawChild(CoordinatorLayout.java:1312)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at androidx.drawerlayout.widget.DrawerLayout.drawChild(DrawerLayout.java:1483)
+[mono-rt] 	at crc640ec207abc449b2ca.ShellFlyoutRenderer.n_drawChild(Native Method)
+[mono-rt] 	at crc640ec207abc449b2ca.ShellFlyoutRenderer.drawChild(ShellFlyoutRenderer.java:57)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21221)
+[mono-rt] 	at android.view.View.draw(View.java:22085)
+[mono-rt] 	at android.view.ViewGroup.drawChild(ViewGroup.java:4516)
+[mono-rt] 	at android.view.ViewGroup.dispatchDraw(ViewGroup.java:4277)
+[mono-rt] 	at android.view.View.draw(View.java:22357)
+[mono-rt] 	at com.android.internal.policy.DecorView.draw(DecorView.java:807)
+[mono-rt] 	at android.view.View.updateDisplayListIfDirty(View.java:21230)
+[mono-rt] 	at android.view.ThreadedRenderer.updateViewTreeDisplayList(ThreadedRenderer.java:559)
+[mono-rt] 	at android.view.ThreadedRenderer.updateRootDisplayList(ThreadedRenderer.java:565)
+[mono-rt] 	at android.view.ThreadedRenderer.draw(ThreadedRenderer.java:642)
+[mono-rt] 	at android.view.ViewRootImpl.draw(ViewRootImpl.java:4108)
+[mono-rt] 	at android.view.ViewRootImpl.performDraw(ViewRootImpl.java:3835)
+[mono-rt] 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3106)
+[mono-rt] 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1950)
+[mono-rt] 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8186)
+[mono-rt] 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1056)
+[mono-rt] 	at android.view.Choreographer.doCallbacks(Choreographer.java:878)
+[mono-rt] 	at android.view.Choreographer.doFrame(Choreographer.java:811)
+[mono-rt] 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1041)
+[mono-rt] 	at android.os.Handler.handleCallback(Handler.java:938)
+[mono-rt] 	at android.os.Handler.dispatchMessage(Handler.java:99)
+[mono-rt] 	at android.os.Looper.loop(Looper.java:223)
+[mono-rt] 	at android.app.ActivityThread.main(ActivityThread.java:7726)
+[mono-rt] 	at java.lang.reflect.Method.invoke(Native Method)
+[mono-rt] 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+[mono-rt] 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:952)
+[mono-rt] 
+[libc] Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x71a676fcc8 in tid 31707 (RenderThread), pid 31478 (mauilauncherapp)
